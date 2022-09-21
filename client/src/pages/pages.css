@@ -1,0 +1,189 @@
+/* CSS STYLING FILE FOR PAGES */
+
+
+body {
+
+  }
+  
+  #sidebar {
+    position: fixed !important;
+  
+  }
+  
+  .vertical-nav {
+    min-width: 18rem;
+    width: 20rem;
+    height: 100vh;
+    position: fixed;
+   
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    background-color: white;
+  }
+  
+  .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+  }
+  
+   
+  
+  
+  
+  #content.active {
+    width: 100%;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    #sidebar {
+      margin-left: -17rem;
+    }
+  
+    #sidebar.active {
+      margin-left: 0;
+    }
+  
+    #content {
+      width: 100%;
+      margin: 0;
+    }
+  
+    #content.active {
+      margin-left: 17rem;
+      width: calc(100% - 17rem);
+    }
+  }
+  
+   
+  
+  
+  .separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.1em;
+  }
+  
+  .text-gray {
+    color: #aaa;
+  }
+  
+  
+  
+  .header_web {
+    background-color: #333F52;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .header_web {
+      display: none;
+    }
+  
+    .content {
+      margin-left: 0px !important;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 700px) {
+    .header_mobile {
+      display: none;
+    }
+  
+    .header_web {
+      display: block;
+    }
+  
+  
+  }
+  
+  
+  
+  .page_row{
+   
+    margin: 0 auto!important;
+  }
+  
+  
+  
+  /* -------------------MENU-------------------
+   */
+  
+  .menu {
+    background-color: #333F52;
+  }
+  
+  .navbar_name{
+    color: rgb(192, 18, 18);
+  }
+  
+  .header_menu{
+    margin-top: 100px;
+    position: relative;
+  }
+  
+  
+  
+  /* -------------------AllEmployees-------------------
+   */
+  
+  .search_box{
+    background-color: white;
+    margin-top: 75px;
+    padding: 30px;
+   
+  }
+  
+  .form{
+    margin-top: 40px;
+  }
+  
+  
+  .Employees_container{
+    margin: 70px;
+  }
+  
+  .banner_container{
+    margin-top: 70px !important;
+  }
+  
+  #SearchInput{
+    background-color: #F5F5F5;
+   
+  }
+  
+  .checkbox_row{
+   margin-bottom: 10px !important;
+  }
+  
+  .card_text{
+    font-size: 22px;
+      font-weight: 500;
+      color: black;
+  }
+  
+  .add_employee_container{
+    margin-top: 60px;
+  }
+
+  
+  .container-box{
+    padding: 30px;
+  }
+
+
+  .squad-box{
+    margin-top: 75px;
+
+  }
+
+  .squad-page{
+    background-image: url("../../public/background.png");
+    background-size: cover;
+    height: 100vh;
+  }

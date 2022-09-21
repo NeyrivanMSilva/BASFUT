@@ -1,0 +1,201 @@
+/* CSS STYLING FILE FOR COMPONENTS */
+
+
+#header{
+    height: 80px !important;
+    background-color: white;
+}
+ 
+.header_item_mobile{
+    padding: 20px;
+}
+
+  @media only screen and (min-width: 770px) {
+    .header_mobile{
+     display: none;
+     background-color: #2CB1BC;
+     width: 100%;
+     margin-top: 10px !important;
+    }
+    
+  }  
+
+.wrapper{
+    background-color: white;
+   
+ 
+    margin-bottom: 50px !important;
+    margin: 50px;
+}
+
+.wrapper_name{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    overflow-wrap: break-word;
+   
+}
+
+.wrapper_info_row::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #2CB1BC;
+    right: 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.wrapper_info{
+    font-size: 15px;
+   
+    overflow-wrap: break-word;
+}
+
+
+
+.wrapper_info_row{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.wrapper_button_row{
+    margin-bottom: 30px;
+}
+
+.header_item{
+    padding: 0 !important;
+    text-align: center !important;
+  
+    transition: 0.5s;
+}
+
+
+.menu_user{
+    color: #3F5469 ;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+ 
+.header_item:hover{
+    background-color:#F0F4F8 ;
+   
+    
+    transition: 0.5s;
+}
+
+.form_text{
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.form_checkbox{
+    height: 28px;
+    width: 16px;
+}
+
+.icon_name_col{
+    text-align: center;
+    align-self: center;
+}
+
+.name_icon{
+    margin-top: 20px;
+}
+
+ 
+
+.container_role{
+   
+    margin-top: 8px;
+    width: 100%;
+    transition: 1s;
+    color: #E9B949;
+    border: 0px;
+    margin-right: 10px;
+    background-color: #FCEFC7;
+}
+
+.column_role{
+    padding: 3px!important;
+}
+
+ .role_word{
+    font-size: 14px;
+ }
+
+#checkbox_container{
+    justify-content: center;
+}
+
+.row-addPlayer-Title{
+    background-color: #00447D;
+    color: white;
+    height: 70px;
+}
+
+.row-addPlayer-Container{
+    background-color: #006dd7d1;
+    margin: 0 auto !important;
+    padding: 40px;
+}
+
+.add-Player-Button{
+    width: 300px;
+    background-color: transparent !important;
+}
+
+.add-Player-Button-Container{
+    background-color: transparent !important;
+    border: 0px !important;
+}
+
+ .add-Player-Button-Container:hover{
+    background-color: #006DD7 !important;
+}  
+
+.row-addPlayer-Title-Row{
+    height: 300px;
+    padding-top: 24px !important;
+    justify-content: center;
+    background-color: #006dd7d1
+}
+
+.form-row{
+    width: 80%;
+    margin: 0 auto !important;
+    
+}
+
+.squad-players-byposition{
+    background-color: #2587E9;
+}
+
+.squad-players-header{
+    background-color: white;
+}
+
+.squad-titles{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.stats-column{
+    background-color: rgba(2,41,82,.65);
+    right: -10px;
+    left: -10px;
+}
+
+.stats-overall-box{
+    border-radius: 30px;
+    height: 50px;
+    width: 90% !important;
+    background-color: #00447D;
+    margin:  0 auto;
+}

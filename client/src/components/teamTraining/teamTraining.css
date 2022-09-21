@@ -1,0 +1,41 @@
+.col3-teamtraining{
+    width: 95% !important;
+   padding-top: 10px !important;
+    margin: 0 auto;
+    text-align: center;
+     border-radius: 17px;
+     box-shadow: inset 3px 0 2px 0 rgb(0 0 0 / 30%), inset -3px 0 2px 0 rgb(0 0 0 / 30%), inset 0 -4px 0 0 rgb(0 0 0 / 30%), inset 0 5px 0 0 #47c2fc;
+     padding: 10px;
+     background: #47c2fc;
+}
+
+
+.col4-teamtraining{
+    width: 95% !important;
+   padding-top: 10px !important;
+    margin: 0 auto;
+    text-align: center;
+     border-radius: 17px;
+     box-shadow: inset 3px 0 2px 0 rgb(0 0 0 / 30%), inset -3px 0 2px 0 rgb(0 0 0 / 30%), inset 0 -4px 0 0 rgb(0 0 0 / 30%), inset 0 5px 0 0 #47c2fc;
+     padding: 10px;
+     background: #47c2fc;
+}
+
+
+
+.button:active
+{
+opacity: 0;
+}
+
+.teamTraining-container{
+    width: 97% !important;
+    padding-top: 50px;
+    margin-top: 70px;
+    background-color: rgba(2,41,82,.65);
+}
+
+.teamTraining-workout-img{
+    width: 240px;
+    margin: 0 auto;
+}
